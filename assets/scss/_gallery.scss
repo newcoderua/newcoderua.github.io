@@ -13,6 +13,9 @@
             height: 565px;
             background-size: cover;
             background-repeat: no-repeat;
+            @media all and (min-width:769px) and (max-width: 800px) {
+                background-size: contain;
+              }
         }
         // Caption
         .thumb-content-box {
